@@ -1,0 +1,240 @@
+.headerheader {
+    width: 100%;
+}
+
+.headerheader {
+    box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.05);
+}
+.headerheader {
+    background-color: #fff;
+    display: grid;
+    height: 70px;
+}
+@media screen and (max-width:767px) {
+    .headerheader {
+    max-width: 100%;
+    z-index: 10;
+    padding: 15px;
+
+    }
+}    
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 36px 0 36px;
+    max-width: 100%;
+    position: relative;
+}
+@media screen and (max-width:767px) {
+    .header-container {
+    max-width: 100%;
+    margin: 0 16px;
+    }
+}
+.HeaderLogo {
+    display: inline-block;
+    align-self: center;
+    padding: 0 30px 10px 30px;
+}
+@media screen and (max-width:767px) {
+    .HeaderLogo__image--pc {
+        width: 100%;
+        padding: 0;
+    }
+        
+}
+.HeaderLogo__image--pc {
+    height: 20px;
+    width: auto;
+}
+
+    
+.navigations {
+    list-style-type: none;
+    display: inline-flex;
+    font-size: 12px;
+    position: relative;
+    bottom: 10px;
+}
+@media screen and (max-width:767px) {
+    .navigations {
+        display: none;
+    }
+}
+
+.navigations li {
+    text-align: center;
+    margin : 20px 20px; 
+}
+.navigations a {
+    text-decoration: none;
+    color: black;
+}
+.navigations a:hover {
+    color:rgb(167, 164, 164);
+}
+.free-box  {
+    cursor: pointer;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 40px;
+    border-radius: 9999px;
+    font-size: 10px;
+}
+.free-box a {
+    color: white;
+}
+.free-box a:hover {
+    color: rgb(243, 239, 204);
+}
+body {
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .main {
+        display: block;
+        margin-bottom: 7px;
+        width: 100%;
+    }
+}
+.free-counseling {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    width: 500px;
+    height: 70px;
+    border-radius: 9999px;
+    position: relative;
+    top: 130px;
+    left: 220px;
+}
+@media screen and (max-width:767px) {
+    .free-counseling {
+        width: 600px;
+        height: 110px;
+        position: relative;
+        left: 30px;
+        top: 380px;
+
+    }
+}
+.free-counseling a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+
+}
+
+.message {
+    font-size: 30px;
+    position: relative;
+    top: 155px;
+    left:235px;
+    display: inline-block;
+}
+@media screen and (max-width:767px) {
+    .message {
+        width: auto;
+        font-size: 25px;
+        left: 10px;
+        top: 380px;
+    }
+}
+.info {
+    position: relative;
+    top: -30px;
+    left: 245px;
+    font-size: 10px;
+    display: inline-block;
+}
+@media screen and (max-width:767px) {
+.info {
+    position: relative;
+    left: 150px;
+    top: 380px;
+    font-size: 20px;
+    display: inline-block;
+}
+}
+.FirstView__bg-image--main-visual {
+    top: 10px;
+    right: 0px;
+    width: 775px;
+}
+@media screen and (max-width:767px) {
+.FirstView__bg-image--main-visual {
+        width: 480px;
+        top: 100px;
+        right: 0px;
+    }
+}
+.FirstView__bg-image {
+    position: absolute;
+    z-index: -1;
+}
+@media screen and (max-width:767px) {
+    .FirstView__bg-image {
+        right: -235px;
+        z-index: -2;
+    }    
+}
+.FirstView__bg-image--left-rectangle {
+    width: 300px;
+    top: 60px;
+    left: 0;
+    z-index: -2;
+}
+@media screen and (max-width:767px) {
+.FirstView__bg-image--left-rectangle {
+    top: -60px;
+    left: 0;
+}
+}
+.FirstView__bg-image--right-rectangle {
+    right: 0px;
+    bottom: 0px;
+}
+@media screen and (max-width:767px) {
+.FirstView__bg-image--right-rectangle {
+    display: none;
+}
+}
+.FirstView__bg-image--fill-rectangle {
+    top: 150px;
+    left: -70px;
+    z-index: -1;
+}
+@media screen and (max-width:767px) {
+.FirstView__bg-image--fill-rectangle {
+    z-index: -3;
+    width: 360px;
+    top: 100px;
+    left: 60px
+    
+    
+}
+}
+
+.circle {
+    position: relative;
+    left: 280px;
+    bottom: 280px;
+    margin-right: 0;
+    display: inline-block;
+}
+@media screen and (max-width:767px) {
+    .FirstViewContent__badge-image {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        top: 250px;
+        left: 100px;
+        z-index: 10;
+    }
+}
